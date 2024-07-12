@@ -1,1 +1,0 @@
-Tớ tên là Phạm Kiều Trang

@@ -1,0 +1,1 @@
+Python là ngôn ngữ thông dịch
