@@ -1,0 +1,44 @@
+Câu 1:
+- Python là ngôn ngữ lập trình thông dịch 
+- Python mã được thực thi trực tiếp trên máy tính, không cần giai đoạn biên dịch trước khi chạy. 
+Điều này được thực hiện bởi Python interpreter, một chương trình độc lập được cung cấp cùng với Python, có chức năng đọc và thực thi mã nguồn Python.
+Vì thế, Python là một ngôn ngữ thông dịch, người dùng có thể viết và chạy chương trình ngay lập tức sau khi viết mã nguồn, không cần phải chờ đợi giai đoạn biên dịch.
+
+Câu 2:
+a, Các kiểu dữ liệu trong Python:
+- Kiểu dữ liệu số: integer, float, complex
+- Kiểu dữ liệu luận lý (boolean): true, false
+- Kiểu dữ liệu chuỗi kí tự: string
+- Kiểu dữ liệu danh sách: list
+- Kiểu dữ liệu từ điển: dict
+- Kiểu dữ liệu NoneType
+
+b, Các toán tử trong Python:
+- Toán tử số học: +, -, *, /, %
+- Toán tử quan hệ: ==, !=, <>, >, <, >=, <=
+- Toán tử gán: =, +=, -= *=, /=, %=, **=, //=
+- Toán tử logic: anh, or, not
+- Toán tử membership: in ,not in
+- Toán tử nhận dạng: is, is not
+- Toán tử thao tác bit: &, |, ^, -, <<, >>
+
+c, Mệnh đề điều kiện và vòng lặp:
+- Mệnh đề điều kiện 
+if điều kiện1:
+    # khối lệnh này sẽ được thực thi nếu điều kiện1 là true
+elif điều kiện2:
+    # khối lệnh này sẽ được thực thi nếu điều kiện1 là false và điều kiện2 là true
+else:
+    # khối lệnh này sẽ được thực thi nếu cả hai điều kiện trên đều false
+- Vòng lặp: 
+while điều kiện:
+    # khối lệnh này sẽ được thực thi cho đến khi điều kiện là false
+for biến in danh sách:
+   # khối lệnh này sẽ được thực thi cho mỗi phần tử trong danh sách
+- Câu lệnh điều khiển vòng lặp:
+break: Đứng lại ngay lập tức khỏi vòng lặp và không thực thi thêm nữa.
+continue: Đứng lại ngay lập tức khỏi vòng lặp và quay lại bước tiếp theo.
+
+d, Kiểu dữ liệu Boolean:
+- True: đại diện cho giá trị đúng
+- False: đại diện cho giá trị sai
