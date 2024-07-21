@@ -1,0 +1,20 @@
+a=int(input("Nhap a: "))
+b=int(input("Nhap b: "))
+print("a+b= ", a+b)
+print("a-b= ", a-b)
+print("a*b= ", a*b)
+print("a//b= ", a//b)
+print("a**b= ", a**b)
+print("a%b= ", a%b)
+if a>b:
+    print("a>b")
+elif a<b:
+    print("a<b")
+else:
+    print("a==b")
+print("a AND b= ", a&b)
+print("a OR b= ", a|b)
+print("a XOR b= ", a^b)
+print("NOT a == b", not a == b)
+print("a >> 1 ", a >> 1)
+print("a << 1 ", a << 1)
