@@ -98,7 +98,7 @@
 # l=[int(input()) for _ in range(10)]
 # print(l)
 
-# l=[[1,2,3],[4,5,6]]
+l=[[1,2,3],[4,5,6]]
 # l=[i for l in l for i in l]
 # print(l)
 
@@ -107,11 +107,11 @@
 # print(l)
 
 # C2:
-# l=[]
-# for x in range(10):
-#     if x%2==0:
-#         l.append(x)
-# print(l)
+l=[]
+for x in range(10):
+    if x%2==0:
+        l.append(x)
+print(l)
 
 # l=[1,2,3,4,5]
 # print(l[0:4])
@@ -131,3 +131,15 @@ l=input()
 l1=l.split()
 l2=[int(num) for num in l1]
 print(l2.sort())
+
+n= int (input())
+
+a=[int(input()) for _ in range(n)]
+b=[int(input()) for _ in range(n)]
+a.sort()
+print(a)
+
+b=b*2
+b=b[::-1]
+c=b+a
+print(c)
